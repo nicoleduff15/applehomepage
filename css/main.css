@@ -1,0 +1,249 @@
+/* NAVIGATION BAR */
+body {
+    margin: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: lucida;
+    src: url('../fonts/LucidaGrande.ttf');
+}
+
+div {
+  vertical-align: top;
+}
+
+div.navigation {
+    background-color: #323232;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navigation ul {
+    margin: 0;
+    height: 45px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-right: 70px;
+}
+
+.navigation ul li a {
+    /* color: #ffffff; */
+    text-decoration: none;
+}
+
+.fa-apple {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #5b5f66;
+}
+
+/* MAIN PRODUCTS */
+main {
+    display: inline-block;
+    padding-top: 30px;
+    width: 100%;
+    /* text-align: center; */
+    /* height: 100%; */
+    /*width: 143%;*/
+    background-color: #fafafa;
+}
+
+.iphonex {
+    background-image: url('../img/iphonex.png');
+    width: 100%;
+    height: 389px;
+    /*position: relative;*/
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    background-size: 60%;
+    padding: 100px 0;
+    /*margin-left: 253px;
+    margin-top: 283px;*/
+}
+
+div.iphone {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+    /*display: inline-block;
+    margin-right: 1135px;*/
+}
+
+/*div.iphone h1 {
+    display: inline-block;
+}
+*/
+h3, h1 {
+    margin: 0;
+}
+
+.iphone8 {
+  background-image: url('../img/iphone8.png');
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #FBF0EB;
+  background-position: 50% 75%;
+  background-size: 60%;
+  padding: 15px 0;
+}
+
+div.iphone8{
+  font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.ipad {
+  background-image: url('../img/ipad.png');
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #f5f5f5;
+  background-position: 50% 75%;
+  background-size: 60%;
+}
+
+div.ipad {
+  font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.small {
+  background-image: url('../img/applese.png');
+	font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #FAFAFA;
+  border:none;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.small a {
+	text-decoration: none;
+	color: blue;
+}
+
+#small-two {
+  background-image:url('../img/edu.png');
+  text-align: center;
+  background-color: #FAFAFA;
+  border:none;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#watch .h1 .img {
+  text-align: center;
+}
+
+
+.imac {
+  text-align: center;
+  height: 389px;
+  display: inline-block;
+  position: relative;
+  width: 49%;
+  background-image: url('../img/imacprofilms.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  font-family:'Roboto', sans-serif;
+}
+
+#watch {
+  text-align: center;
+  background-color: none;
+  height: 389px;
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  background-image: url('../img/watchseries.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: black;
+}
+
+.home{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-image: url('../img/homepodfilm.png');
+    width: 49%;
+    height: 389px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#home-two{
+    display: inline-block;
+    position: relative;
+    background-image: url('../img/airpods.png');
+    width: 49%;
+    height: 389px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/*Footer*/
+
+footer {
+	background-color: #F5F5F5;
+}
+footer > ul {
+  vertical-align: top;
+	display: inline-block;
+	list-style-type: none;
+	padding: 55px;
+	padding-top: 10px;
+}
+
+footer li span {
+	color: #333333;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	color: #7D7D7D;
+	list-style-type: none;
+
+}
